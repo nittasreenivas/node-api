@@ -1,0 +1,8 @@
+html
+  head
+    title Product Titles
+  body
+    ul
+      each product in pts
+        li
+          a(href='/products/'+product.id)= product.title
